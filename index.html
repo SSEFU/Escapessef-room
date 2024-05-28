@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCAPE ROOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200;1,400;1,700&family=Source+Code+Pro:ital,wght@0,600;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="stanze.html">STANZE</a></li>
+                    <li><a href="iscrivit.html">ISCRIZIONE</a></li>
+                    <li><a href="regole.html">REGOLE</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>ESCAPESSEF ROOM</h1> <br><br><br>
+        <p>RIUSCIRAI A SCAPPARE IN 60 MINUTI ?</p> <br><br><br>
+        <a href="iscrivit.html" class="hero-btn">PRENOTA ORA !</a>
+    </div>
+
+
+    </section>
+
+<!---------------"galleria"------------->
+
+<section class="galleria">
+    <div class="bg">
+    <p class="paragrapho">Escapessef room organizza giochi di fuga:</p>
+    <p class="sotto-paragrapho">un piccolo gruppo entra in una stanza a tema e ha 60 minuti per scappare. 
+    <br>Per uscire in tempo, devono trovare indizi, risolvere enigmi e completare semplici compiti.</p>
+    </div>
+   
+    <h2>GALLERIA</h2>
+<br>
+    <div class="row">
+       <div class="galleria-col">
+           <img src="images/galleria-1.jpg">
+           
+           </div>
+       </div>
+       <div class="galleria-col">
+        <img src="images/galleria-2.jpg">
+        
+        </div>
+    </div> 
+    <div class="galleria-col">
+        <img src="images/galleria-4.jpg">
+        
+        </div>
+        
+        <div class="galleria-col">
+            <img src="images/GALLERIA-9.jpg">
+        
+        </div>
+        <div class="galleria-col">
+            <img src="images/galleria-10.jpg">
+        
+        </div>
+        <div class="galleria-col">
+            <img src="images/galleria-11.jpg">
+        
+        </div>
+        
+        
+        
+    </div>  
+    </div>
+   
+</section>
+
+<!----------FAQ------------>
+
+
+
+
+
+<!---------Contact us--------->
+
+<section class="cta">
+    <h1>Per qualsiasi chiarimento non esitare a contattarci <br> Team Escapessef room </h1>
+    <a href="iscrivit.html" class="hero-btn">CONTACT US</a>
+
+</section>
+
+
+
+<!---------------Footer---------------->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Immaginati in un gioco di avventura nella vita reale pieno di misteriosi enigmi e indizi rompicapo! <br> Questa è l'Escapessef Room</p>
+    <div class="icons">
+       <i class="fa fa-facebook"></i> 
+       <i class="fa fa-twitter"></i> 
+       <i class="fa fa-instagram"></i> 
+       <i class="fa fa-linkedin"></i> 
+    
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Youssef </p>
+</section>
+
+
+
+
+
+ 
+<!-----------JavaScript------------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+</script>
+
+</body>
+</html>

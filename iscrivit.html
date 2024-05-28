@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCAPE ROOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iscriviti.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200;1,400;1,700&family=Source+Code+Pro:ital,wght@0,600;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="stanze.html">STANZE</a></li>
+                    <li><a href="iscrivit.html">ISCRIZIONE</a></li>
+                    <li><a href="regole.html">REGOLE</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+
+<!-------------------ISCRIVITI----------------->
+
+
+<div class="wrapper">
+    <div class="title">
+      REGISTRAZIONE
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>Nome</label>
+          <input type="text" class="input" placeholder="inserisci il tuo nome">
+       </div>  
+        <div class="inputfield">
+          <label>Cognome</label>
+          <input type="text" class="input" placeholder="inserisci il tuo cognome">
+       </div>  
+       <div class="inputfield">
+        <label>Email Address</label>
+        <input type="text" class="input" placeholder="example@gmail.com">
+     </div> 
+       <div class="inputfield">
+          <label>Password</label>
+          <input type="password" class="input" placeholder="inserisci la tua password">
+       </div>  
+      <div class="inputfield">
+          <label>Confirm Password</label>
+          <input type="password" class="input" placeholder="conferma la tua password">
+       </div> 
+       <div class="inputfield">
+        <label>data di nascita</label>
+        <input type="date" class="input">
+     </div> 
+        <div class="inputfield">
+          <label>Genere</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Selezionare</option>
+              <option value="male">Uomo</option>
+              <option value="female">Donna</option>
+              <option value="female">Preferisco non dirlo</option>
+            </select>
+          </div>
+       </div> 
+       <div class="inputfield">
+        <label>Stanza</label>
+        <div class="custom_select">
+          <select>
+            <option value="">Selezionare</option>
+            <option value="male">Motel</option>
+            <option value="female">Prison</option>
+            <option value="female">Zombie</option>
+          </select>
+        </div>
+     </div> 
+     <div class="inputfield">
+      <label>Ruolo desiderato</label>
+      <div class="custom_select">
+        <select>
+          <option value="">Selezionare</option>
+          <option value="male">Luffy</option>
+          <option value="female">Zoro</option>
+          <option value="female">Sanji</option>
+        </select>
+      </div>
+   </div> 
+     <div class="inputfield">
+      <label>selezionare la data interessata</label>
+      <input type="date" class="input">
+   </div>
+   <div class="inputfield">
+    <label>Orario</label>
+    <input type="time" class="input" placeholder="10:30">
+ </div>
+     <div class="inputfield">
+      <label>Numero giocatori</label>
+      <input type="number" class="input" min="2" max="8" placeholder="min 2 , max 8">
+   </div> 
+     
+       
+      <div class="inputfield">
+          <label>Telefono</label>
+          <input type="text" class="input" placeholder="es : 012-345-6789">
+       </div> 
+      <div class="inputfield">
+          <label>messaggio/coupon</label>
+          <textarea class="textarea"></textarea>
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Accetto termini e condizioni</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Registrati" class="btn">
+      </div>
+      <div class="inputfield">
+        <input type="Reset" value="Reset" class="btn">
+      </div>
+    </div>
+</div>	
+	
+
+
+
+
+
+
+<!---------------Footer---------------->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Immaginati in un gioco di avventura nella vita reale pieno di misteriosi enigmi e indizi rompicapo! <br> Questa è l'Escapessef Room</p>
+    <div class="icons">
+       <i class="fa fa-facebook"></i> 
+       <i class="fa fa-twitter"></i> 
+       <i class="fa fa-instagram"></i> 
+       <i class="fa fa-linkedin"></i> 
+    
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Youssef </p>
+</section>
+
+
+
+
+
+ 
+<!-----------JavaScript------------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+</script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCAPE ROOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stanze.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200;1,400;1,700&family=Source+Code+Pro:ital,wght@0,600;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="stanze.html">STANZE</a></li>
+                    <li><a href="iscrivit.html">ISCRIZIONE</a></li>
+                    <li><a href="regole.html">REGOLE</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>Le nostre stanze</h1> <br><br><br>
+            
+    
+    
+    <div class="background">
+    <div class="wrapper">
+        <div class="card">
+            <img src="images/1.jpg">
+            <div class="info">
+                <h1>Motel</h1>
+                <p>Ti sei svegliato in una strana stanza di un motel senza alcun ricordo di come ci sei arrivato. 
+                    Qualcun altro è stato qui e ha lasciato una scena raccapricciante.
+                    Raccogli il tuo coraggio e fuggi dal motel prima che scada il tempo..
+                    </p>
+                <a href="iscrivit.html" class="btn">PRENOTA ORA</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/prison.jpg">
+            <div class="info">
+                <h1>Prison</h1>
+                <p>Sono passati anni dalla condanna all'ergastolo. 
+                    Mentre ti siedi nel blocco A in una prigione di massima sicurezza, 
+                    diventi ansioso di libertà. Un giorno scoppia una rivolta in un'altra sezione della prigione.
+                     Mentre le guardie sono preoccupate, 
+                    tu e i tuoi compagni di cella approfittate di questa opportunità per fuggire finalmente. 
+                     </p>
+                <a href="iscrivit.html" class="btn">PRENOTA ORA</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/zombie.jpg">
+            <div class="info">
+                <h1>Zombie</h1>
+                <p>I non morti sono risorti, purtroppo
+                    ha deciso di fare una semplice e divertente stanza di fuga. 
+                    Ma ora il governo ha messo in quarantena l'intero ambiente, 
+                    quindi partire non è più un'opzione. La tua unica possibilità è trovare un riparo,
+                    barricarti dentro e chiedere aiuto prima che "loro" ti prendano.
+                     </p>
+                <a href="iscrivit.html" class="btn">PRENOTA ORA</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----Footer------->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Immaginati in un gioco di avventura nella vita reale pieno di misteriosi enigmi e indizi rompicapo! <br> Questa è l'Escapessef Room</p>
+    <div class="icons">
+       <i class="fa fa-facebook"></i> 
+       <i class="fa fa-twitter"></i> 
+       <i class="fa fa-instagram"></i> 
+       <i class="fa fa-linkedin"></i> 
+    
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Youssef </p>
+</section>
+
+
+
+
+
+ 
+<!-----------JavaScript------------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+</script>
+    
+</body>
+</html>
